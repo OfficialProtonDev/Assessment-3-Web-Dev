@@ -1,0 +1,155 @@
+.nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    background-color: white !important;
+    color: #212529 !important;
+}
+
+.text-body-secondary {
+    color: white;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+.img-container .show {
+    opacity: 1;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 10;
+}
+
+.overlay-content a {
+    padding: 10px 15px 10px 15px;
+    font-family: 'Poppins-Semibold', sans-serif;
+}
+
+.banner-header {
+    color: white;
+    text-shadow: 2px 2px 4px #6e6e6e;
+    font-weight: bold;
+    font-family: 'Poppins-Semibold', sans-serif;
+    padding: 10px;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-family: 'Poppins-Semibold', sans-serif;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-family: 'Poppins-Semibold', sans-serif;
+}
+
+.content-block {
+    padding: 20px;
+}
+
+.about-block {
+    padding: 20px;
+}
+
+.about-block h1 {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 75%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.map iframe {
+    width: 150vh;
+    height: 75vh;
+}
+
+.attraction img {
+    width: 75%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+    width: 30% !important;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 800px) {
+    .item img {
+        width: 80% !important;
+    }
+  }
+  
+  /* Desktop-specific styles */
+  @media only screen and (min-width: 801px) {
+    .item img {
+        width: 30% !important;
+    }
+  }
+
+.item h4,
+.item p {
+    margin: 10px 0;
+}
